@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background-image: url('images/game-title.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: system-ui, sens-serif;
+  text-align: center;
+}
+
+
+.comic-relief {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.btn {
+  padding: 10px;
+  font-size: 32px;
+  background: transparent;
+  border: none;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
